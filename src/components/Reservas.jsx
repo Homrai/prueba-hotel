@@ -14,7 +14,7 @@ const Reservas = () => {
     }
   return (
     <div>
-      <div className="m-sm-5 p-sm-5 p-2 text-light">
+      <div className="m-sm-5 p-sm-5 p-2 text-light listaReservas">
           {listaReservaciones.map((item,index)=>(
             <div key={"listaReservaciones"+index} className=" mt-2 p-3 bg-dark rounded border border-danger border-3" onClick={()=>mostrarReservacion(index)}>
               <h5>Reservacion id: {item.id}</h5>

@@ -83,7 +83,7 @@ const EditarHotel = () => {
 
   return (
     <div className="row">
-        <div className="col-sm-4 col-12">
+        <div className="col-sm-4 col-12 listaHotelesAdmin">
             {editHoteles.map((item,index)=>(
                 <div key={"edicionDeHoteles"+index} onClick={()=>seleccionarHotel(index)} className=" p-1 text-center mt-2 border border-2 rounded bg-dark text light">
                     <h4>

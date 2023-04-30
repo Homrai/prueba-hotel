@@ -122,7 +122,7 @@ const HotelStoreUser = () => {
                 </select>
                 <button className='mt-2 btn btn-outline-warning' onClick={buscar}>Buscar</button>                
             </div>
-            <Accordion flush className="mt-2 col-md-8 px-4 col-12">
+            <Accordion flush className="mt-2 col-md-8 px-4 col-12 listaHoteles">
             {hotelesMostrar.map((item,index)=>(
                 <Accordion.Item  key={"inicioHoteles"+index}  eventKey={index}>
                     <Accordion.Header><h4>{"Hotel: "+item.nombre}</h4></Accordion.Header>

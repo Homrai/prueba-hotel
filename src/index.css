@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.listaHotelesAdmin{
+  height: 400px;
+  overflow: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.listaReservas{
+  height: 750px;
+  overflow: scroll;
+}
+
+@media(max-width:575px){
+  .listaHotelesAdmin{
+    height: 220px;
+  }
+}
+@media (max-width:768px){
+  .listaHoteles{
+    height: 400px;
+    overflow: scroll;
+  }
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
